@@ -1,25 +1,35 @@
 import logo from './logo.svg';
 import './App.css';
+import { About, Analyze, Footer, Header, Product, Talk } from './components';
+import { Container } from 'react-bootstrap';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			<div className="grad">
+				<Container fluid="sm">
+					<Header />
+					<About />
+				</Container>
+			</div>
+			<Container fluid="sm">
+				<Product />
+			</Container>
+			<div className="bg-analyze">
+				<Container fluid="sm">
+					<Analyze />
+				</Container>
+			</div>
+			<Container fluid="sm">
+				<Talk />
+			</Container>
+			<div className="footer">
+				<Container fluid="sm">
+					<Footer />
+				</Container>
+			</div>
+		</div>
+	);
 }
 
 export default App;
