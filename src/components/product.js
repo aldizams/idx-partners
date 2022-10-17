@@ -9,6 +9,7 @@ const Product = () => {
 			about:
 				'SEO Services is our service to help you create a SEO to improve your website',
 			button: 'warning',
+			icon: 'https://cdn-icons-png.flaticon.com/512/864/864685.png',
 		},
 		{
 			id: 2,
@@ -16,6 +17,7 @@ const Product = () => {
 			about:
 				'Web Design is our service that help you to create a design for your website',
 			button: 'danger',
+			icon: 'https://cdn-icons-png.flaticon.com/512/864/864685.png',
 		},
 		{
 			id: 3,
@@ -23,6 +25,7 @@ const Product = () => {
 			about:
 				'Social Engagement is is our service that help you to engage your social medias',
 			button: 'primary',
+			icon: 'https://cdn-icons-png.flaticon.com/512/864/864685.png',
 		},
 		{
 			id: 4,
@@ -30,6 +33,7 @@ const Product = () => {
 			about:
 				'Content Marketing is our service that help you to create a content for your market',
 			button: 'info',
+			icon: 'https://cdn-icons-png.flaticon.com/512/864/864685.png',
 		},
 	];
 	return (
@@ -43,6 +47,7 @@ const Product = () => {
 						title={item.title}
 						about={item.about}
 						button={item.button}
+						// icon={item.icon}
 					/>
 				))}
 			</div>

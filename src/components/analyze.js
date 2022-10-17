@@ -17,7 +17,7 @@ const Analyze = () => {
 						website. Come join us, createasdasdasd your youryour youryour
 						yourbusiness easier!
 					</p>
-					<Button variant="warning">Warning</Button>{' '}
+					<Button variant="warning">Learn More</Button>{' '}
 				</Col>
 				<Col sm={8}>
 					<img

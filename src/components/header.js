@@ -23,7 +23,7 @@ const Header = () => {
 				>
 					<Offcanvas.Header closeButton>
 						<Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-							Offcanvas
+							Sandbox
 						</Offcanvas.Title>
 					</Offcanvas.Header>
 					<Offcanvas.Body>

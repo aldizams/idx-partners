@@ -19,7 +19,7 @@ const Footer = () => {
 					</Col>
 					<Col sm={5}></Col>
 					<Col sm={2} className="aboutCol">
-						<Button variant="warning">Warning</Button>{' '}
+						<Button variant="warning">Learn More</Button>{' '}
 					</Col>
 				</Row>
 				<Row className="pb-5 pt-5" style={{ textAlign: 'left' }}>

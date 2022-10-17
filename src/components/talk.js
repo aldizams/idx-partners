@@ -19,10 +19,10 @@ const Talk = () => {
 					</h1>
 					<p>
 						We Help ateasd Our ateasd Client ateasd to increase ateasd their
-						website. Come join us, createasdasdasd your ateasd ateasd ateasd
-						ateasd business ateasd ateasd easier!
+						website. Come join us, createyour ateasd ateasd ateasd ateasd
+						business ateasd ateasd easier!
 					</p>
-					<Button variant="warning">Warning</Button>{' '}
+					<Button variant="warning">Learn More!</Button>{' '}
 				</Col>
 			</Row>
 		</div>

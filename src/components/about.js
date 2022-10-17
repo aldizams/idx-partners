@@ -17,7 +17,7 @@ const About = () => {
 						We Help Our Client to increase their website. Come join us,
 						createasdasdasd your business easier!
 					</p>
-					<Button variant="warning">Warning</Button>{' '}
+					<Button variant="warning">Learn More</Button>{' '}
 				</Col>
 			</Row>
 		</div>
